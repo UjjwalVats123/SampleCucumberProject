@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="73" failures="0" name="TestRunner.TestRunner" time="0.013" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin"/>
+    <property name="java.vm.version" value="25.221-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\ujjwa\.jenkins\SampleCucumberProject"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\ujjwa\.jenkins\SampleCucumberProject"/>
+    <property name="java.runtime.version" value="1.8.0_221-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ujjwa\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\apache-maven-3.6.2\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_221\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\apache-maven-3.6.2/bin;C:\Program Files\Java\jdk1.8.0_221/bin;C:\Program Files\Java\jdk1.8.0_221/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_221\bin;C:\apache-maven-3.6.2\bin;C:\Users\ujjwa\Anaconda3;C:\Users\ujjwa\Anaconda3\Library\mingw-w64\bin;C:\Users\ujjwa\Anaconda3\Library\usr\bin;C:\Users\ujjwa\Anaconda3\Library\bin;C:\Users\ujjwa\Anaconda3\Scripts;C:\Users\ujjwa\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="maven.conf" value="C:\apache-maven-3.6.2\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\apache-maven-3.6.2\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\ujjwa"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Ujjwal Vats"/>
+    <property name="java.class.path" value="C:\apache-maven-3.6.2\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_221\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_221"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_221\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\apache-maven-3.6.2\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="| Username3 | Password3 |" name="Given Driver is present" time="0.006"/>
+  <testcase classname="| Username3 | Password3 |" name="When Browser is triggered" time="0"/>
+  <testcase classname="| Username3 | Password3 |" name="Then Check if browser is started" time="0.001"/>
+  <testcase classname="| Username3 | Password3 |" name="Given User is on Netbanking landing page" time="0"/>
+  <testcase classname="| Username3 | Password3 |" name="When User login into application with Username3 and Password3" time="0"/>
+  <testcase classname="| Username3 | Password3 |" name="Then Homepage is populated" time="0"/>
+  <testcase classname="| Username3 | Password3 |" name="And Cards displayed are &quot;False&quot;" time="0"/>
+  <testcase classname="| Username3 | Password3 |" name="| Username3 | Password3 |" time="0"/>
+  <testcase classname="| Username4 | Password4 |" name="Given Driver is present" time="0"/>
+  <testcase classname="| Username4 | Password4 |" name="When Browser is triggered" time="0"/>
+  <testcase classname="| Username4 | Password4 |" name="Then Check if browser is started" time="0"/>
+  <testcase classname="| Username4 | Password4 |" name="Given User is on Netbanking landing page" time="0.001"/>
+  <testcase classname="| Username4 | Password4 |" name="When User login into application with Username4 and Password4" time="0"/>
+  <testcase classname="| Username4 | Password4 |" name="Then Homepage is populated" time="0"/>
+  <testcase classname="| Username4 | Password4 |" name="And Cards displayed are &quot;False&quot;" time="0"/>
+  <testcase classname="| Username4 | Password4 |" name="| Username4 | Password4 |" time="0"/>
+  <testcase classname="| Username5 | Password5 |" name="Given Driver is present" time="0"/>
+  <testcase classname="| Username5 | Password5 |" name="When Browser is triggered" time="0"/>
+  <testcase classname="| Username5 | Password5 |" name="Then Check if browser is started" time="0"/>
+  <testcase classname="| Username5 | Password5 |" name="Given User is on Netbanking landing page" time="0"/>
+  <testcase classname="| Username5 | Password5 |" name="When User login into application with Username5 and Password5" time="0"/>
+  <testcase classname="| Username5 | Password5 |" name="Then Homepage is populated" time="0"/>
+  <testcase classname="| Username5 | Password5 |" name="And Cards displayed are &quot;False&quot;" time="0"/>
+  <testcase classname="| Username5 | Password5 |" name="| Username5 | Password5 |" time="0"/>
+  <testcase classname="| Username6 | Password6 |" name="Given Driver is present" time="0"/>
+  <testcase classname="| Username6 | Password6 |" name="When Browser is triggered" time="0"/>
+  <testcase classname="| Username6 | Password6 |" name="Then Check if browser is started" time="0"/>
+  <testcase classname="| Username6 | Password6 |" name="Given User is on Netbanking landing page" time="0"/>
+  <testcase classname="| Username6 | Password6 |" name="When User login into application with Username6 and Password6" time="0"/>
+  <testcase classname="| Username6 | Password6 |" name="Then Homepage is populated" time="0"/>
+  <testcase classname="| Username6 | Password6 |" name="And Cards displayed are &quot;False&quot;" time="0"/>
+  <testcase classname="| Username6 | Password6 |" name="| Username6 | Password6 |" time="0"/>
+  <testcase classname="| Username7 | Password7 |" name="Given Driver is present" time="0"/>
+  <testcase classname="| Username7 | Password7 |" name="When Browser is triggered" time="0"/>
+  <testcase classname="| Username7 | Password7 |" name="Then Check if browser is started" time="0"/>
+  <testcase classname="| Username7 | Password7 |" name="Given User is on Netbanking landing page" time="0"/>
+  <testcase classname="| Username7 | Password7 |" name="When User login into application with Username7 and Password7" time="0"/>
+  <testcase classname="| Username7 | Password7 |" name="Then Homepage is populated" time="0"/>
+  <testcase classname="| Username7 | Password7 |" name="And Cards displayed are &quot;False&quot;" time="0"/>
+  <testcase classname="| Username7 | Password7 |" name="| Username7 | Password7 |" time="0"/>
+  <testcase classname="Scenario: Home page signup" name="Given Driver is present" time="0"/>
+  <testcase classname="Scenario: Home page signup" name="When Browser is triggered" time="0"/>
+  <testcase classname="Scenario: Home page signup" name="Then Check if browser is started" time="0"/>
+  <testcase classname="Scenario: Home page signup" name="Given User is on Netbanking landing page" time="0"/>
+  <testcase classname="Scenario: Home page signup" name="When User signup with the following details" time="0"/>
+  <testcase classname="Scenario: Home page signup" name="Then Homepage is populated" time="0"/>
+  <testcase classname="Scenario: Home page signup" name="And Cards displayed are &quot;True&quot;" time="0"/>
+  <testcase classname="Scenario: Home page signup" name="Scenario: Home page signup" time="0"/>
+  <testcase classname="| Username8 | Password8 |" name="Given User is on Netbanking landing page" time="0"/>
+  <testcase classname="| Username8 | Password8 |" name="When User login into application with Username8 and Password8" time="0"/>
+  <testcase classname="| Username8 | Password8 |" name="Then Homepage is populated" time="0"/>
+  <testcase classname="| Username8 | Password8 |" name="And Cards displayed are &quot;False&quot;" time="0"/>
+  <testcase classname="| Username8 | Password8 |" name="| Username8 | Password8 |" time="0"/>
+  <testcase classname="| Username9 | Password9 |" name="Given User is on Netbanking landing page" time="0"/>
+  <testcase classname="| Username9 | Password9 |" name="When User login into application with Username9 and Password9" time="0"/>
+  <testcase classname="| Username9 | Password9 |" name="Then Homepage is populated" time="0"/>
+  <testcase classname="| Username9 | Password9 |" name="And Cards displayed are &quot;False&quot;" time="0"/>
+  <testcase classname="| Username9 | Password9 |" name="| Username9 | Password9 |" time="0.004"/>
+  <testcase classname="| Username10 | Password10 |" name="Given User is on Netbanking landing page" time="0"/>
+  <testcase classname="| Username10 | Password10 |" name="When User login into application with Username10 and Password10" time="0"/>
+  <testcase classname="| Username10 | Password10 |" name="Then Homepage is populated" time="0"/>
+  <testcase classname="| Username10 | Password10 |" name="And Cards displayed are &quot;False&quot;" time="0"/>
+  <testcase classname="| Username10 | Password10 |" name="| Username10 | Password10 |" time="0"/>
+  <testcase classname="| Username11 | Password11 |" name="Given User is on Netbanking landing page" time="0"/>
+  <testcase classname="| Username11 | Password11 |" name="When User login into application with Username11 and Password11" time="0"/>
+  <testcase classname="| Username11 | Password11 |" name="Then Homepage is populated" time="0"/>
+  <testcase classname="| Username11 | Password11 |" name="And Cards displayed are &quot;False&quot;" time="0"/>
+  <testcase classname="| Username11 | Password11 |" name="| Username11 | Password11 |" time="0"/>
+  <testcase classname="| Username12 | Password12 |" name="Given User is on Netbanking landing page" time="0"/>
+  <testcase classname="| Username12 | Password12 |" name="When User login into application with Username12 and Password12" time="0"/>
+  <testcase classname="| Username12 | Password12 |" name="Then Homepage is populated" time="0.001"/>
+  <testcase classname="| Username12 | Password12 |" name="And Cards displayed are &quot;False&quot;" time="0"/>
+  <testcase classname="| Username12 | Password12 |" name="| Username12 | Password12 |" time="0"/>
+</testsuite>
