@@ -11,7 +11,3 @@ And Cards displayed are "False"
 Examples:
 |Username	|	Password|
 |Username8	|	Password8|
-|Username9	|	Password9|
-|Username10	|	Password10|
-|Username11	|	Password11|
-|Username12	|	Password12|
